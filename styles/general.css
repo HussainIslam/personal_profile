@@ -16,15 +16,13 @@ body{
     padding: 0;
     background-color: green;
     position: fixed;
+    top: 0;
     width: 100%;
     color: white;
     height: 40px;
     
 }
 
-/*
-    Id Tags
-*/
 .nav-list{
     list-style-type: none;
     margin-left: 0;
@@ -46,8 +44,34 @@ body{
     background-image: url("../assets/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     height: 90vh;
 }
+
+.about-banner{
+    display: flex;
+    justify-content: center;
+}
+
+.about-banner-picture{
+    width: 50%;
+    background-image: url("../assets/about.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 70vh;
+
+    margin-top: 5%;
+    
+    border: 1px solid red;
+}
+
+/*
+    Id Tags
+*/
+
+
+
 
 /*
     Children and Relational Tags
