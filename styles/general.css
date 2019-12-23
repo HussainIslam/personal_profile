@@ -1,0 +1,49 @@
+/*
+    Individual tags
+*/
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    
+    font-family: 'PT Sans', sans-serif;
+}
+
+/*
+    Class Tags
+*/
+.nav{
+    padding: 0;
+    background-color: green;
+    position: fixed;
+    width: 100%;
+    color: white;
+    height: 40px;
+    
+}
+
+/*
+    Id Tags
+*/
+.nav-list{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nav-list-item{
+    height: 100%;    
+}
+
+/*
+    Children and Relational Tags
+*/
+li > a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid red;
+    height: 100%;
+}
