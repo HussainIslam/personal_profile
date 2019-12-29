@@ -15,7 +15,7 @@ body{
 .nav{
     padding: 0;
     background-color: green;
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
     color: white;
@@ -46,6 +46,19 @@ body{
     background-size: cover;
     background-position: center center;
     height: 90vh;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.banner-text{
+    position: relative;
+    font-size: 2em;
+    margin-right: 10%;
+    font-weight: bolder;
+    color: #000000;
+    text-shadow: 3px 3px 10px #7a7a7a;
 }
 
 .about-banner{
@@ -66,11 +79,29 @@ body{
     border: 1px solid red;
 }
 
+.about-career{
+    display: flex;
+    justify-content: center;
+}
+
+.about-career-container{
+    width: 80%;
+    border: 1px solid red;
+}
+
 /*
     Id Tags
 */
 
+#home-banner-hussain{
+    color: #f93136 ;
+}
 
+#about-career-text{
+    position: relative;
+    text-align: justify;
+
+}
 
 
 /*
@@ -81,4 +112,13 @@ li > a {
     color: white;
     padding-right: 20%;
     font-size: 1.5em;
+}
+
+
+@media only screen and (max-width: 768px){
+
+
+    .about-banner-picture{
+        width: 100%;
+    }
 }
