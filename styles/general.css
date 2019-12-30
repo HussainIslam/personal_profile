@@ -89,6 +89,14 @@ body{
     border: 1px solid red;
 }
 
+.resume-body{
+    margin-top: 50px;
+}
+
+.skill-icon{
+    width: 50px;
+}
+
 /*
     Id Tags
 */
