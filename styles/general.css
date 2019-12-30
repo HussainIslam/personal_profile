@@ -91,10 +91,45 @@ body{
 
 .resume-body{
     margin-top: 50px;
+    border: 1px solid red;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume-header-three{
+    color: red;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.resume-header-four {
+    text-align: center;
+    font-size: 1.2em;
+
+}
+
+.technical-skills{
+    width: 100%;
+}
+
+.resume-icon-container{
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
 
 .skill-icon{
-    width: 50px;
+    width: 60px;
+    margin: 2%;
+
 }
 
 /*
@@ -111,6 +146,13 @@ body{
 
 }
 
+#resume-technical-skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
 
 /*
     Children and Relational Tags
@@ -120,6 +162,14 @@ li > a {
     color: white;
     padding-right: 20%;
     font-size: 1.5em;
+}
+
+.resume-body > * {
+    margin-top: 100px;
+}
+
+#resume-technical-skills > * {
+    margin-top: 70px;
 }
 
 
